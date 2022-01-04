@@ -1,0 +1,5 @@
+cid = str(input("Em que cidade você nasceu? ")).strip()
+intitial = int(input('Digite a posicao da string que deseja'))
+final= int(input('Digite a ultima posição '))
+# print(cid[:5].upper() == "SANTO")
+print(cid[intitial:final+1])
